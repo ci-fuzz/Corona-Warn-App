@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1630418846128
+Build-Jdk: 11.0.12
+Built-By: user
+Bundle-Description: Apache Commons Imaging (previously Sanselan) is a pu
+ re-Java image library.
+Bundle-DocURL: http://commons.apache.org/proper/commons-imaging/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Imaging
+Bundle-SymbolicName: org.apache.commons.imaging
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.imaging;version="1.0",org.apache.comm
+ ons.imaging.color;version="1.0",org.apache.commons.imaging.common;versi
+ on="1.0",org.apache.commons.imaging.common.bytesource;version="1.0",org
+ .apache.commons.imaging.common.itu_t4;version="1.0",org.apache.commons.
+ imaging.common.mylzw;version="1.0",org.apache.commons.imaging.formats;v
+ ersion="1.0",org.apache.commons.imaging.formats.bmp;version="1.0",org.a
+ pache.commons.imaging.formats.bmp.pixelparsers;version="1.0",org.apache
+ .commons.imaging.formats.bmp.writers;version="1.0",org.apache.commons.i
+ maging.formats.dcx;version="1.0",org.apache.commons.imaging.formats.gif
+ ;version="1.0",org.apache.commons.imaging.formats.icns;version="1.0",or
+ g.apache.commons.imaging.formats.ico;version="1.0",org.apache.commons.i
+ maging.formats.jpeg;version="1.0",org.apache.commons.imaging.formats.jp
+ eg.decoder;version="1.0",org.apache.commons.imaging.formats.jpeg.exif;v
+ ersion="1.0",org.apache.commons.imaging.formats.jpeg.iptc;version="1.0"
+ ,org.apache.commons.imaging.formats.jpeg.segments;version="1.0",org.apa
+ che.commons.imaging.formats.jpeg.xmp;version="1.0",org.apache.commons.i
+ maging.formats.pcx;version="1.0",org.apache.commons.imaging.formats.png
+ ;version="1.0",org.apache.commons.imaging.formats.png.chunks;version="1
+ .0",org.apache.commons.imaging.formats.png.scanlinefilters;version="1.0
+ ",org.apache.commons.imaging.formats.png.transparencyfilters;version="1
+ .0",org.apache.commons.imaging.formats.pnm;version="1.0",org.apache.com
+ mons.imaging.formats.psd;version="1.0",org.apache.commons.imaging.forma
+ ts.psd.dataparsers;version="1.0",org.apache.commons.imaging.formats.psd
+ .datareaders;version="1.0",org.apache.commons.imaging.formats.rgbe;vers
+ ion="1.0",org.apache.commons.imaging.formats.tiff;version="1.0",org.apa
+ che.commons.imaging.formats.tiff.constants;version="1.0",org.apache.com
+ mons.imaging.formats.tiff.datareaders;version="1.0",org.apache.commons.
+ imaging.formats.tiff.fieldtypes;version="1.0",org.apache.commons.imagin
+ g.formats.tiff.photometricinterpreters;version="1.0",org.apache.commons
+ .imaging.formats.tiff.taginfos;version="1.0",org.apache.commons.imaging
+ .formats.tiff.write;version="1.0",org.apache.commons.imaging.formats.wb
+ mp;version="1.0",org.apache.commons.imaging.formats.xbm;version="1.0",o
+ rg.apache.commons.imaging.formats.xpm;version="1.0",org.apache.commons.
+ imaging.icc;version="1.0",org.apache.commons.imaging.palette;version="1
+ .0",org.apache.commons.imaging.util;version="1.0"
+Import-Package: javax.imageio
+Include-Resource: org/apache/commons/imaging/formats/xpm/rgb.txt=src/mai
+ n/resources/org/apache/commons/imaging/formats/xpm/rgb.txt,META-INF/LIC
+ ENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=NOTICE.txt
+Tool: Bnd-2.1.0.20130426-122213
