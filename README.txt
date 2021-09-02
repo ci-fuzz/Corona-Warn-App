@@ -1,3 +1,7 @@
+This is not the German Corona Warn App.
+Dummy Repo for testing.
+
+
 =========================================================================
 Welcome to Apache Commons Imaging  <http://commons.apache.org/imaging/>
 =========================================================================
